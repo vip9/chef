@@ -126,7 +126,7 @@ function search() {
 };
 
 function load_banner() {
-    fetch("/banner.html")
+    fetch("banner.html")
         .then(function(response) {
             if (response.ok) {
                 return response.text();
